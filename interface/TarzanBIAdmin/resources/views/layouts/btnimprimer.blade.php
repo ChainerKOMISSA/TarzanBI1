@@ -1,0 +1,1 @@
+<button onclick="window.print()" class="btn btn-warning">Imprimer</button>
