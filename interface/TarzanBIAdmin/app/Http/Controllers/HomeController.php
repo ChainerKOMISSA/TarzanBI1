@@ -1,9 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Http\Request;
 
+use App\Charts\Cmd2Chart;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Charts\CmdChart;
 class HomeController extends Controller
+
 {
     /**
      * Create a new controller instance.
@@ -20,8 +24,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(CmdChart $chart)
     {
-        return view('home');
+        $countprod = DB::table('produits')->count();
+        $countcmd = DB::table('commandes')->count();
+        $countuser = DB::table('clients')->count();
+        return view('home', compact('countuser', 'countprod', 'countcmd'), ['chart' => $chart->build()]);
     }
 }

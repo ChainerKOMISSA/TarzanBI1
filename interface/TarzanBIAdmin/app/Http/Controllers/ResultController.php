@@ -25,8 +25,9 @@ class ResultController extends Controller
             'produit' =>$request->produit,
             'ville' =>$request->ville
         ]);
+        dd($response->getBody());
         return view('layouts.resultats',["data"=>$request],['chart' => $chart->build()]);
     }
 
-    
+
 }

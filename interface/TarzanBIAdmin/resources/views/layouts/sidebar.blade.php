@@ -21,7 +21,7 @@
                 Tableau de bord
               </p>
             </a>
-          </li>            
+          </li>
           <li class="nav-header">PREDICTIONS</li>
           <li class="nav-item">
             <a href="{{route('produits')}}" class="nav-link">
@@ -48,19 +48,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{route('prediction')}}" class="nav-link">
-              <i class="nav-icon fas fa-book-open"></i>
-              <p>Documentation API</p>
-            </a>
-          </li>
-          <li class="nav-item">
             <a href="{{route('logout')}}" class="nav-link">
               <i class="nav-icon fas fa-sign-out-alt"></i>
               <p>Se déconnecter</p>
 
             </a>
           </li>
-          
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

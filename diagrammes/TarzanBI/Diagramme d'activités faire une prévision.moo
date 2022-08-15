@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{275CF161-0EC7-41A4-AC2E-4338D13C3859}" Label="" LastModificationDate="1657725540" Name="Diagramme d&#39;activités faire une prévision" Objects="25" Symbols="28" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{275CF161-0EC7-41A4-AC2E-4338D13C3859}" Label="" LastModificationDate="1659781708" Name="Diagramme d&#39;activités faire une prévision" Objects="24" Symbols="27" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1119,41 +1119,41 @@ NameToCode=No</a:ModelOptionsText>
 </o:Activity>
 <o:Activity Id="o16">
 <a:ObjectID>02DE586D-DD2A-4C6A-8B35-8E40E04F5BA5</a:ObjectID>
-<a:Name>Taitement des informations</a:Name>
-<a:Code>Taitement_des_informations</a:Code>
+<a:Name>Envoi des informations à l&#39;API</a:Name>
+<a:Code>Envoi_des_informations_a_l_API</a:Code>
 <a:CreationDate>1657725164</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657725189</a:ModificationDate>
+<a:ModificationDate>1659781642</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 </o:Activity>
 <o:Activity Id="o18">
 <a:ObjectID>3787B950-8BC7-4AE9-A72C-98098086F2ED</a:ObjectID>
-<a:Name>Interrogation de la base de données</a:Name>
-<a:Code>Interrogation_de_la_base_de_donnees</a:Code>
+<a:Name>Traitement des informations par l&#39;API</a:Name>
+<a:Code>Traitement_des_informations_par_l_API</a:Code>
 <a:CreationDate>1657725193</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657725212</a:ModificationDate>
+<a:ModificationDate>1659781664</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 </o:Activity>
 <o:Activity Id="o20">
 <a:ObjectID>34D77027-817B-4292-9690-316468FCF381</a:ObjectID>
-<a:Name>Récupération de résultats</a:Name>
-<a:Code>Recuperation_de_resultats</a:Code>
+<a:Name>Envoi des résultats</a:Name>
+<a:Code>Envoi_des_resultats</a:Code>
 <a:CreationDate>1657725217</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657725253</a:ModificationDate>
+<a:ModificationDate>1659781708</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 </o:Activity>
 <o:Activity Id="o22">
 <a:ObjectID>06419489-3A98-4E17-86FC-E9FE26FD168E</a:ObjectID>
-<a:Name>Envoi des résultats</a:Name>
-<a:Code>Envoi_des_resultats</a:Code>
+<a:Name>Affichage des résultats</a:Name>
+<a:Code>Affichage_des_resultats</a:Code>
 <a:CreationDate>1657725258</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657725270</a:ModificationDate>
+<a:ModificationDate>1659781693</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 </o:Activity>
@@ -1806,8 +1806,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:FlowSymbol Id="o37">
 <a:CreationDate>1657725419</a:CreationDate>
 <a:ModificationDate>1657725419</a:ModificationDate>
-<a:Rect>((4222,14789), (4672,19728))</a:Rect>
-<a:ListOfPoints>((4447,19728),(4447,14789))</a:ListOfPoints>
+<a:Rect>((4230,14789), (4684,19728))</a:Rect>
+<a:ListOfPoints>((4447,19728),(4466,14789))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
@@ -1827,8 +1827,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:FlowSymbol Id="o39">
 <a:CreationDate>1657725420</a:CreationDate>
 <a:ModificationDate>1657725420</a:ModificationDate>
-<a:Rect>((3873,8800), (4323,15022))</a:Rect>
-<a:ListOfPoints>((4098,15022),(4098,8800))</a:ListOfPoints>
+<a:Rect>((3862,8800), (4313,15022))</a:Rect>
+<a:ListOfPoints>((4084,15022),(4091,8800))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
@@ -1848,8 +1848,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:FlowSymbol Id="o41">
 <a:CreationDate>1657725424</a:CreationDate>
 <a:ModificationDate>1657725424</a:ModificationDate>
-<a:Rect>((4521,2211), (4971,8001))</a:Rect>
-<a:ListOfPoints>((4746,8001),(4746,2211))</a:ListOfPoints>
+<a:Rect>((4512,2211), (4968,8001))</a:Rect>
+<a:ListOfPoints>((4757,8001),(4722,2211))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
@@ -1869,8 +1869,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:FlowSymbol Id="o43">
 <a:CreationDate>1657725426</a:CreationDate>
 <a:ModificationDate>1657725426</a:ModificationDate>
-<a:Rect>((4721,-3179), (5171,2011))</a:Rect>
-<a:ListOfPoints>((4946,2011),(4946,-3179))</a:ListOfPoints>
+<a:Rect>((4692,-3178), (5163,2011))</a:Rect>
+<a:ListOfPoints>((4872,2011),(4983,-3178))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
@@ -1890,8 +1890,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:FlowSymbol Id="o45">
 <a:CreationDate>1657725429</a:CreationDate>
 <a:ModificationDate>1657725429</a:ModificationDate>
-<a:Rect>((4721,-8666), (5171,-3778))</a:Rect>
-<a:ListOfPoints>((4946,-3778),(4946,-8666))</a:ListOfPoints>
+<a:Rect>((4736,-8666), (5194,-3777))</a:Rect>
+<a:ListOfPoints>((4983,-3777),(4946,-8666))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16711680</a:LineColor>
@@ -1990,7 +1990,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1657725164</a:CreationDate>
 <a:ModificationDate>1657725403</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-935,14023), (9431,16022))</a:Rect>
+<a:Rect>((-1422,14023), (9918,16022))</a:Rect>
 <a:LineColor>33023</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2008,7 +2008,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1657725193</a:CreationDate>
 <a:ModificationDate>1657725406</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-2408,7633), (11106,9632))</a:Rect>
+<a:Rect>((-2596,7633), (11294,9632))</a:Rect>
 <a:LineColor>33023</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2026,7 +2026,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1657725217</a:CreationDate>
 <a:ModificationDate>1657725408</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-197,1866), (9493,3865))</a:Rect>
+<a:Rect>((1002,1866), (8294,3865))</a:Rect>
 <a:LineColor>33023</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2044,7 +2044,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1657725258</a:CreationDate>
 <a:ModificationDate>1657725411</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((1101,-3781), (8392,-1782))</a:Rect>
+<a:Rect>((426,-3780), (9067,-1781))</a:Rect>
 <a:LineColor>33023</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>

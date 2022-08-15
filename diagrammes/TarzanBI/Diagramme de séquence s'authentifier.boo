@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{81C75EAB-606A-4213-A77A-F146D96EB61F}" Label="" LastModificationDate="1656877975" Name="Diagramme de séquence s&#39;authentifier" Objects="18" Symbols="27" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{81C75EAB-606A-4213-A77A-F146D96EB61F}" Label="" LastModificationDate="1657713226" Name="Diagramme de séquence s&#39;authentifier" Objects="18" Symbols="26" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1710,7 +1710,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <o:UMLObjectSequenceSymbol Id="o41">
 <a:CreationDate>1656877533</a:CreationDate>
 <a:ModificationDate>1656877799</a:ModificationDate>
-<a:Rect>((5975,23135), (12798,26734))</a:Rect>
+<a:Rect>((6050,23135), (12723,26734))</a:Rect>
 <a:LineColor>33023</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1817,11 +1817,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:UMLObject>
 <o:UMLObject Id="o43">
 <a:ObjectID>0AE699DA-89E3-4D04-BC93-46937C9B33CC</a:ObjectID>
-<a:Name>LoginControlleurs</a:Name>
-<a:Code>LoginControlleurs</a:Code>
+<a:Name>Base de données</a:Name>
+<a:Code>Base_de_donnees</a:Code>
 <a:CreationDate>1656877533</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1656877560</a:ModificationDate>
+<a:ModificationDate>1657713226</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 </o:UMLObject>
 </c:Model.Objects>

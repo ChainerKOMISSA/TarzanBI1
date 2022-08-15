@@ -30,12 +30,10 @@ Route::get('/predictprod', [App\Http\Controllers\PredictProdController::class, '
 Route::get('/utilisateurs', [App\Http\Controllers\UserController::class, 'habits']) ->name('utilisateurs');
 
 Route::post('/resultats', [App\Http\Controllers\ResultController::class, 'result']) -> name('resultats');
-
+  
 Route::resource('user', UserController::class);
 
 Route::get('/stats/mois', [App\Http\Controllers\MonthController::class, 'month']) ->name('stats/mois');
 
 Route::post('/statistics', [App\Http\Controllers\StatController::class, 'stats']) ->name('statistiques');
-
-
 

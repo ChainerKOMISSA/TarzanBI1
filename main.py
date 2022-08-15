@@ -1,13 +1,11 @@
 import pymongo
 import spacy
-from flask import jsonify
-from spacy import displacy
-from collections import Counter
-from nltk.tokenize import sent_tokenize, word_tokenize
-import requests
 from app import *
 import json
 from pymongo import MongoClient
+import mysql.connector
+from mysql.connector import Error
+import numpy as np
 
 
 token = "EAAPSc0PwSO8BAJ8YZCZAooq7PkoMTVdgy5rWXt4C4pdAEQxQI3JZCZBrmZAvyYcdrIZBay8ZCZB13ebZBXpSmgtrPI7goJ2gyzusysVDRB4eH9IMztfY2hPDP7qJJaMZAtqhUMZCH1KNEvehyLlyFfPIg6yZCocc0M58KXDbFedtEjULXQZDZD"
@@ -53,18 +51,35 @@ def produits():
 
 
 
+def get_mysqldb():
+    try:
+        conn = mysql.connector.connect(host="localhost",
+                                    user="root",
+                                    password = "",
+                                    database = "data")
+        return conn
+    except Error as e:
+        print("Erreur:", e)
+
+
 
 #retourner les villes avec le nombre de ventes de ce produit
 #en x on aura les villes et en y les nombres
 def statistiquesville():
-    db = get_database()
-    mycollection = db["Commandes"]
+    db = get_mysqldb()
+    mycursor = db.cursor()
     values = getvalues()
-    produit = values["produit"]
-    ville = values["ville"]
-    mongoquery = ""
-    print()
-    return mongoquery
+    prod = values["produit"]
+    #prod = "Routeurs"
+    produit = "Description = Routeurs"
+    query = ("""SELECT SUM(Quantity), City
+             FROM commandes
+             WHERE Description = '{}'
+             GROUP BY City;""".format(prod))
+    mycursor.execute(query)
+    result = mycursor.fetchall()
+    print(result)
+    return result
 
 
 
@@ -73,16 +88,32 @@ def statistiquesville():
 #en x on aura les mois et en y les nombres
 def statistiquesmois():
     db = get_database()
-    mycollection = db["Commandes"]
+    mycursor = db.cursor()
     values = getstats()
     produit = values["produit"]
     mois = values["mois"]
-    mongoquery = ""
+    if mois == "Janvier":
+        month = "%/01/%"
+    elif mois == "Février":
+        month = "%/02/%"
+    elif mois == "Mars":
+        month = "%/03/%"
+    elif mois == "Avril":
+        month = "%/04/%"
+    elif mois == "Mai":
+        month = "%/05/%"
+    elif mois == "Juin":
+        month = "%/06/%"
+    elif mois == "Juillet":
+        month = "%/07/%"
+    query = f"SELECT SUM(Quantity), InvoiceDate FROM commandes where Description = {produit} AND InvoiceDate LIKE {month} group by InvoiceDate"
+    mycursor.execute(query)
+    result = mycursor.fetchall()
     print()
-    return mongoquery
+    return result
 
 
 
 
 if __name__ == "__main__":
-    produits()
+    statistiquesville()

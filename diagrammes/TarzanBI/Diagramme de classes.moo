@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{82C2F2CA-9DE0-45BC-8642-7B44CBF36476}" Label="" LastModificationDate="1658308819" Name="Diagramme de classes" Objects="40" Symbols="19" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{82C2F2CA-9DE0-45BC-8642-7B44CBF36476}" Label="" LastModificationDate="1659783013" Name="Diagramme de classes" Objects="49" Symbols="19" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>Diagramme_de_classes</a:Code>
 <a:CreationDate>1657710186</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1658308797</a:ModificationDate>
+<a:ModificationDate>1659782933</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -968,7 +968,7 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>DiagrammeClasses_1</a:Code>
 <a:CreationDate>1657710186</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1658308799</a:ModificationDate>
+<a:ModificationDate>1659782956</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1380,36 +1380,11 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:TextSymbol Id="o5">
-<a:Text>Avoir</a:Text>
-<a:CreationDate>1657712260</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:Rect>((5439,31601), (10238,35200))</a:Rect>
-<a:TextStyle>4130</a:TextStyle>
-<a:LineColor>0</a:LineColor>
-<a:DashStyle>7</a:DashStyle>
-<a:FillColor>0</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontName>Arial,8,N</a:FontName>
-</o:TextSymbol>
-<o:TextSymbol Id="o6">
-<a:Text>Passer</a:Text>
-<a:CreationDate>1657712400</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:Rect>((-18261,26026), (-13462,29625))</a:Rect>
-<a:TextStyle>4130</a:TextStyle>
-<a:LineColor>0</a:LineColor>
-<a:DashStyle>7</a:DashStyle>
-<a:FillColor>0</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontName>Arial,8,N</a:FontName>
-</o:TextSymbol>
-<o:AssociationSymbol Id="o7">
-<a:CreationDate>1657712046</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:SourceTextOffset>(-212, -587)</a:SourceTextOffset>
-<a:Rect>((-15711,22800), (-7012,29550))</a:Rect>
-<a:ListOfPoints>((-7012,29550),(-13837,29550),(-13837,22800))</a:ListOfPoints>
+<o:AssociationSymbol Id="o5">
+<a:CreationDate>1659782933</a:CreationDate>
+<a:ModificationDate>1659782980</a:ModificationDate>
+<a:Rect>((1962,3750), (13312,12600))</a:Rect>
+<a:ListOfPoints>((11363,12600),(11363,3750),(1962,3750))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -1417,21 +1392,33 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o8"/>
+<o:ClassSymbol Ref="o6"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o9"/>
+<o:ClassSymbol Ref="o7"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o10"/>
+<o:Association Ref="o8"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationSymbol Id="o11">
-<a:CreationDate>1657712058</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:SourceTextOffset>(-188, 587)</a:SourceTextOffset>
-<a:Rect>((-10987,19635), (10913,21983))</a:Rect>
-<a:ListOfPoints>((-10987,20809),(10913,20809))</a:ListOfPoints>
+<o:TextSymbol Id="o9">
+<a:Text>Passer</a:Text>
+<a:CreationDate>1657712400</a:CreationDate>
+<a:ModificationDate>1659782869</a:ModificationDate>
+<a:Rect>((-18111,25101), (-13312,28700))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:LineColor>0</a:LineColor>
+<a:DashStyle>7</a:DashStyle>
+<a:FillColor>0</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+</o:TextSymbol>
+<o:AssociationSymbol Id="o10">
+<a:CreationDate>1657712046</a:CreationDate>
+<a:ModificationDate>1659782865</a:ModificationDate>
+<a:SourceTextOffset>(-212, -587)</a:SourceTextOffset>
+<a:Rect>((-16146,20444), (-3862,27978))</a:Rect>
+<a:ListOfPoints>((-3862,27978),(-14272,27978),(-14272,20444))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -1439,7 +1426,7 @@ MULA 0 Arial,8,N</a:FontList>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o9"/>
+<o:ClassSymbol Ref="o11"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
 <o:ClassSymbol Ref="o12"/>
@@ -1449,11 +1436,12 @@ MULA 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:AssociationSymbol>
 <o:AssociationSymbol Id="o14">
-<a:CreationDate>1657712084</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:SourceTextOffset>(-225, 587)</a:SourceTextOffset>
-<a:Rect>((3188,31301), (13763,33649))</a:Rect>
-<a:ListOfPoints>((3188,32475),(13763,32475))</a:ListOfPoints>
+<a:CreationDate>1657712058</a:CreationDate>
+<a:ModificationDate>1659782842</a:ModificationDate>
+<a:SourceTextOffset>(-188, 587)</a:SourceTextOffset>
+<a:DestinationTextOffset>(-187, -1262)</a:DestinationTextOffset>
+<a:Rect>((-11857,14987), (9755,18010))</a:Rect>
+<a:ListOfPoints>((-11857,16836),(9755,16836))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -1461,40 +1449,101 @@ MULA 0 Arial,8,N</a:FontList>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o8"/>
+<o:ClassSymbol Ref="o12"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o15"/>
+<o:ClassSymbol Ref="o6"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o16"/>
+<o:Association Ref="o15"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationClassLinkSymbol Id="o17">
-<a:CreationDate>1657712218</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:Rect>((-37,9749), (489,20809))</a:Rect>
-<a:ListOfPoints>((-37,20809),(489,20809),(489,9749))</a:ListOfPoints>
-<a:CornerStyle>2</a:CornerStyle>
-<a:ArrowStyle>0</a:ArrowStyle>
-<a:LineColor>4194432</a:LineColor>
-<a:DashStyle>2</a:DashStyle>
-<a:ShadowColor>12632256</a:ShadowColor>
-<c:SourceSymbol>
-<o:AssociationSymbol Ref="o11"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:ClassSymbol Ref="o18"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:AssociationClassLink Ref="o19"/>
-</c:Object>
-</o:AssociationClassLinkSymbol>
-<o:ClassSymbol Id="o15">
-<a:CreationDate>1657710191</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
+<o:ClassSymbol Id="o11">
+<a:CreationDate>1657710294</a:CreationDate>
+<a:ModificationDate>1659782623</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((11457,29328), (21471,36070))</a:Rect>
+<a:Rect>((-4156,24691), (6630,32407))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Class Ref="o16"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o6">
+<a:CreationDate>1657711383</a:CreationDate>
+<a:ModificationDate>1659782623</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((9746,12429), (21228,21119))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Class Ref="o17"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o12">
+<a:CreationDate>1657711482</a:CreationDate>
+<a:ModificationDate>1659782623</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-21616,12431), (-11756,21121))</a:Rect>
+<a:LineColor>128</a:LineColor>
+<a:FillColor>8637161</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Class Ref="o18"/>
+</c:Object>
+</o:ClassSymbol>
+<o:TextSymbol Id="o19">
+<a:Text>Contenir</a:Text>
+<a:CreationDate>1657712416</a:CreationDate>
+<a:ModificationDate>1659782623</a:ModificationDate>
+<a:Rect>((-1800,15876), (2999,19475))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:LineColor>0</a:LineColor>
+<a:DashStyle>7</a:DashStyle>
+<a:FillColor>0</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+</o:TextSymbol>
+<o:ClassSymbol Id="o7">
+<a:CreationDate>1659782882</a:CreationDate>
+<a:ModificationDate>1659782887</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-4709,1765), (5383,7533))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1513,103 +1562,11 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Class Ref="o20"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o8">
-<a:CreationDate>1657710294</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-7306,28129), (3480,36819))</a:Rect>
-<a:LineColor>128</a:LineColor>
-<a:FillColor>8637161</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N
-CNTR 0 Arial,8,N
-Attributes 0 Arial,8,N
-ClassPrimaryAttribute 0 Arial,8,U
-Operations 0 Arial,8,N
-InnerClassifiers 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<c:Object>
-<o:Class Ref="o21"/>
-</c:Object>
-</o:ClassSymbol>
-<o:ClassSymbol Id="o12">
-<a:CreationDate>1657711383</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((10905,17890), (20069,23658))</a:Rect>
-<a:LineColor>128</a:LineColor>
-<a:FillColor>8637161</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N
-CNTR 0 Arial,8,N
-Attributes 0 Arial,8,N
-ClassPrimaryAttribute 0 Arial,8,U
-Operations 0 Arial,8,N
-InnerClassifiers 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<c:Object>
-<o:Class Ref="o22"/>
-</c:Object>
-</o:ClassSymbol>
-<o:ClassSymbol Id="o9">
-<a:CreationDate>1657711482</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-22504,18379), (-10868,23173))</a:Rect>
-<a:LineColor>128</a:LineColor>
-<a:FillColor>8637161</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N
-CNTR 0 Arial,8,N
-Attributes 0 Arial,8,N
-ClassPrimaryAttribute 0 Arial,8,U
-Operations 0 Arial,8,N
-InnerClassifiers 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<c:Object>
-<o:Class Ref="o23"/>
-</c:Object>
-</o:ClassSymbol>
-<o:ClassSymbol Id="o18">
-<a:CreationDate>1657711744</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-4597,6865), (5725,12633))</a:Rect>
-<a:LineColor>128</a:LineColor>
-<a:FillColor>8637161</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N
-CNTR 0 Arial,8,N
-Attributes 0 Arial,8,N
-ClassPrimaryAttribute 0 Arial,8,U
-Operations 0 Arial,8,N
-InnerClassifiers 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<c:Object>
-<o:Class Ref="o24"/>
-</c:Object>
-</o:ClassSymbol>
-<o:TextSymbol Id="o25">
-<a:Text>Contenir</a:Text>
-<a:CreationDate>1657712416</a:CreationDate>
-<a:ModificationDate>1658308819</a:ModificationDate>
-<a:Rect>((-1800,19876), (2999,23475))</a:Rect>
+<o:TextSymbol Id="o21">
+<a:Text>Correspondre</a:Text>
+<a:CreationDate>1659782956</a:CreationDate>
+<a:ModificationDate>1659782967</a:ModificationDate>
+<a:Rect>((11776,4426), (16575,8025))</a:Rect>
 <a:TextStyle>4130</a:TextStyle>
 <a:LineColor>0</a:LineColor>
 <a:DashStyle>7</a:DashStyle>
@@ -1624,90 +1581,17 @@ LABL 0 Arial,8,N</a:FontList>
 <o:ClassDiagram Ref="o4"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o20">
-<a:ObjectID>F0A5003C-5A17-4486-A5BA-5FDEBC41F284</a:ObjectID>
-<a:Name>Localisation</a:Name>
-<a:Code>Localisation</a:Code>
-<a:CreationDate>1657710191</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657710287</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<c:Attributes>
-<o:Attribute Id="o26">
-<a:ObjectID>6642576B-548B-437E-B50B-81BC7119C035</a:ObjectID>
-<a:Name>idLocalisation</a:Name>
-<a:Code>idLocalisation</a:Code>
-<a:CreationDate>1657710231</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657710287</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o27">
-<a:ObjectID>E491B79B-4BB5-43E7-8470-5FA2CD31AB52</a:ObjectID>
-<a:Name>pays</a:Name>
-<a:Code>pays</a:Code>
-<a:CreationDate>1657710231</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711377</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o28">
-<a:ObjectID>D27EB81F-89CE-4DE9-A558-144D31B41A50</a:ObjectID>
-<a:Name>ville</a:Name>
-<a:Code>ville</a:Code>
-<a:CreationDate>1657710231</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657710276</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o29">
-<a:ObjectID>F2034A57-88F3-4AAD-8E50-202320E98E90</a:ObjectID>
-<a:Name>quartier</a:Name>
-<a:Code>quartier</a:Code>
-<a:CreationDate>1657710231</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711377</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-</c:Attributes>
-<c:Identifiers>
-<o:Identifier Id="o30">
-<a:ObjectID>649A29CC-0BE9-4500-B354-9B6B789A5B03</a:ObjectID>
-<a:Name>idLocalisation</a:Name>
-<a:Code>idLocalisation</a:Code>
-<a:CreationDate>1657710278</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657710287</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<c:Identifier.Attributes>
-<o:Attribute Ref="o26"/>
-</c:Identifier.Attributes>
-</o:Identifier>
-</c:Identifiers>
-<c:PrimaryIdentifier>
-<o:Identifier Ref="o30"/>
-</c:PrimaryIdentifier>
-</o:Class>
-<o:Class Id="o21">
+<o:Class Id="o16">
 <a:ObjectID>46DC471C-61FB-4A3B-A21F-90C97E544582</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>Client</a:Code>
 <a:CreationDate>1657710294</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711340</a:ModificationDate>
+<a:ModificationDate>1659782797</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o31">
+<o:Attribute Id="o22">
 <a:ObjectID>CE255CC9-FE6D-4FF4-AFF1-8B06E3F5722D</a:ObjectID>
 <a:Name>idClient</a:Name>
 <a:Code>idClient</a:Code>
@@ -1718,7 +1602,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o32">
+<o:Attribute Id="o23">
 <a:ObjectID>04F952F6-61ED-4F80-AA3B-B625F839178D</a:ObjectID>
 <a:Name>nomClient</a:Name>
 <a:Code>nomClient</a:Code>
@@ -1729,7 +1613,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o33">
+<o:Attribute Id="o24">
 <a:ObjectID>4F31ACCD-2FE0-4F9D-8235-A1E8EE794954</a:ObjectID>
 <a:Name>prenomClient</a:Name>
 <a:Code>prenomClient</a:Code>
@@ -1740,7 +1624,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o34">
+<o:Attribute Id="o25">
 <a:ObjectID>9AACAEBC-CCF9-42BF-8B0F-C53682E0FB71</a:ObjectID>
 <a:Name>telephoneClient</a:Name>
 <a:Code>telephoneClient</a:Code>
@@ -1751,7 +1635,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o35">
+<o:Attribute Id="o26">
 <a:ObjectID>4A06C834-3318-48F1-A346-994AC2767097</a:ObjectID>
 <a:Name>emailClient</a:Name>
 <a:Code>emailClient</a:Code>
@@ -1762,20 +1646,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o36">
-<a:ObjectID>EBA955BA-B163-41B8-85A1-A763DDB9438A</a:ObjectID>
-<a:Name>idLocalisation</a:Name>
-<a:Code>idLocalisation</a:Code>
-<a:CreationDate>1657710300</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657710485</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o37">
+<o:Identifier Id="o27">
 <a:ObjectID>4B902C41-7566-4C12-834F-C5A9B0690979</a:ObjectID>
 <a:Name>idClient</a:Name>
 <a:Code>idClient</a:Code>
@@ -1784,25 +1657,25 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1657711340</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o31"/>
+<o:Attribute Ref="o22"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o37"/>
+<o:Identifier Ref="o27"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o22">
+<o:Class Id="o17">
 <a:ObjectID>AF09EB1F-929C-437E-B957-583EED247128</a:ObjectID>
 <a:Name>Produit</a:Name>
 <a:Code>Produit</a:Code>
 <a:CreationDate>1657711383</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657712330</a:ModificationDate>
+<a:ModificationDate>1659782755</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o38">
+<o:Attribute Id="o28">
 <a:ObjectID>7858FA6F-D123-40D0-A301-2F0567437E37</a:ObjectID>
 <a:Name>idProduit</a:Name>
 <a:Code>idProduit</a:Code>
@@ -1813,31 +1686,64 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o39">
+<o:Attribute Id="o29">
 <a:ObjectID>11294DCC-8EE2-4CC6-96BD-F988875AB8AF</a:ObjectID>
 <a:Name>nomProduit</a:Name>
 <a:Code>nomProduit</a:Code>
 <a:CreationDate>1657711387</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711463</a:ModificationDate>
+<a:ModificationDate>1659782755</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o40">
+<o:Attribute Id="o30">
 <a:ObjectID>72B72944-7D56-47CC-A397-C14FA2CD782E</a:ObjectID>
-<a:Name>prixProduit</a:Name>
-<a:Code>prixProduit</a:Code>
+<a:Name>lienProduit</a:Name>
+<a:Code>lienProduit</a:Code>
 <a:CreationDate>1657711387</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711463</a:ModificationDate>
+<a:ModificationDate>1659782755</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>float</a:DataType>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o31">
+<a:ObjectID>26DA8DEF-4CB7-4142-81B4-6D1C229827B6</a:ObjectID>
+<a:Name>descriptionProduit</a:Name>
+<a:Code>descriptionProduit</a:Code>
+<a:CreationDate>1659782625</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782755</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o32">
+<a:ObjectID>8421D04C-C85F-4348-8770-D1D2F79A64C3</a:ObjectID>
+<a:Name>imageProduit</a:Name>
+<a:Code>imageProduit</a:Code>
+<a:CreationDate>1659782625</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782755</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o33">
+<a:ObjectID>190A6D27-EDE8-4A6F-A80F-1AD0B45A6D92</a:ObjectID>
+<a:Name>statut</a:Name>
+<a:Code>statut</a:Code>
+<a:CreationDate>1659782625</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782755</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o41">
+<o:Identifier Id="o34">
 <a:ObjectID>63873A8F-255B-45E3-83FD-EB01E0B8BF2F</a:ObjectID>
 <a:Name>idProduit</a:Name>
 <a:Code>idProduit</a:Code>
@@ -1846,25 +1752,25 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1657711473</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o38"/>
+<o:Attribute Ref="o28"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o41"/>
+<o:Identifier Ref="o34"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o23">
+<o:Class Id="o18">
 <a:ObjectID>F4B8C638-9234-4240-B4B9-90DE5F753961</a:ObjectID>
 <a:Name>Commande</a:Name>
 <a:Code>Commande</a:Code>
 <a:CreationDate>1657711482</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711730</a:ModificationDate>
+<a:ModificationDate>1659782817</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o42">
+<o:Attribute Id="o35">
 <a:ObjectID>37C51015-9BE0-409A-8F67-5977DE5A760F</a:ObjectID>
 <a:Name>idCommande</a:Name>
 <a:Code>idCommande</a:Code>
@@ -1875,20 +1781,64 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o43">
+<o:Attribute Id="o36">
 <a:ObjectID>B3E3B618-05CF-4605-AE42-8FDE946EC7C2</a:ObjectID>
-<a:Name>montantCommande</a:Name>
-<a:Code>montantCommande</a:Code>
+<a:Name>Description</a:Name>
+<a:Code>Description</a:Code>
 <a:CreationDate>1657711695</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711712</a:ModificationDate>
+<a:ModificationDate>1659782600</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o37">
+<a:ObjectID>1AA52510-1FD3-44C1-A1E6-FC861B2659AF</a:ObjectID>
+<a:Name>Quantity</a:Name>
+<a:Code>Quantity</a:Code>
+<a:CreationDate>1659782516</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782600</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o38">
+<a:ObjectID>EF35F96A-5B4B-432D-A94F-55B5D2238EF8</a:ObjectID>
+<a:Name>InvoiceDate</a:Name>
+<a:Code>InvoiceDate</a:Code>
+<a:CreationDate>1659782516</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782600</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>Date</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o39">
+<a:ObjectID>4FFAECB6-DC39-426C-B636-B8BBB5C6F29F</a:ObjectID>
+<a:Name>UnitPrice</a:Name>
+<a:Code>UnitPrice</a:Code>
+<a:CreationDate>1659782516</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782600</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:DataType>float</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
+<o:Attribute Id="o40">
+<a:ObjectID>DAD86778-6D99-4971-B278-5179214D46D8</a:ObjectID>
+<a:Name>City</a:Name>
+<a:Code>City</a:Code>
+<a:CreationDate>1659782516</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782600</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o44">
+<o:Identifier Id="o41">
 <a:ObjectID>39267898-5FE9-42BF-A5F8-66E3AA740939</a:ObjectID>
 <a:Name>idCommande</a:Name>
 <a:Code>idCommande</a:Code>
@@ -1897,62 +1847,79 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1657711730</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <c:Identifier.Attributes>
+<o:Attribute Ref="o35"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o41"/>
+</c:PrimaryIdentifier>
+</o:Class>
+<o:Class Id="o20">
+<a:ObjectID>896D51DC-617E-4015-8244-5B9EEC05527C</a:ObjectID>
+<a:Name>Categorie</a:Name>
+<a:Code>Categorie</a:Code>
+<a:CreationDate>1659782882</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782922</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o42">
+<a:ObjectID>7363BFA7-98CD-49CF-9ABD-C066B1E6F5DD</a:ObjectID>
+<a:Name>idCat</a:Name>
+<a:Code>idCat</a:Code>
+<a:CreationDate>1659782890</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782922</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o43">
+<a:ObjectID>B7861A4D-0CB4-49D3-A2E5-FDFE9EE5E154</a:ObjectID>
+<a:Name>nomCat</a:Name>
+<a:Code>nomCat</a:Code>
+<a:CreationDate>1659782890</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782950</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o44">
+<a:ObjectID>DB9F61D4-BA29-4638-8621-D5121FF3FCA2</a:ObjectID>
+<a:Name>descriptionCat</a:Name>
+<a:Code>descriptionCat</a:Code>
+<a:CreationDate>1659782890</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782950</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
+<c:Identifiers>
+<o:Identifier Id="o45">
+<a:ObjectID>AD7FBDB9-CE69-4A85-B93D-781A4742956B</a:ObjectID>
+<a:Name>idCat</a:Name>
+<a:Code>idCat</a:Code>
+<a:CreationDate>1659782914</a:CreationDate>
+<a:Creator>Shiner PC</a:Creator>
+<a:ModificationDate>1659782922</a:ModificationDate>
+<a:Modifier>Shiner PC</a:Modifier>
+<c:Identifier.Attributes>
 <o:Attribute Ref="o42"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o44"/>
+<o:Identifier Ref="o45"/>
 </c:PrimaryIdentifier>
-</o:Class>
-<o:Class Id="o24">
-<a:ObjectID>BF68801B-DFED-4137-BEFB-515BC2D86133</a:ObjectID>
-<a:Name>LigneCommande</a:Name>
-<a:Code>LigneCommande</a:Code>
-<a:CreationDate>1657711744</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711789</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<c:Attributes>
-<o:Attribute Id="o45">
-<a:ObjectID>3AC3B024-8C4B-4AD8-9341-22FE55F87CFA</a:ObjectID>
-<a:Name>idCommande</a:Name>
-<a:Code>idCommande</a:Code>
-<a:CreationDate>1657711749</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711789</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o46">
-<a:ObjectID>029C56D5-6EA3-4838-9DB5-1BEB7D6924FA</a:ObjectID>
-<a:Name>idClient</a:Name>
-<a:Code>idClient</a:Code>
-<a:CreationDate>1657711749</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711789</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>int</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o47">
-<a:ObjectID>C0ED3B51-5CB4-4B24-9D5B-46EF9496794F</a:ObjectID>
-<a:Name>dateCommande</a:Name>
-<a:Code>dateCommande</a:Code>
-<a:CreationDate>1657711749</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657711789</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<a:DataType>Date</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-</c:Attributes>
 </o:Class>
 </c:Classes>
 <c:Associations>
-<o:Association Id="o10">
+<o:Association Id="o13">
 <a:ObjectID>48D98C3B-DBC5-4E4C-B8BC-7E6A2287F29F</a:ObjectID>
 <a:Name>Association_3</a:Name>
 <a:Code>Association_3</a:Code>
@@ -1963,36 +1930,36 @@ LABL 0 Arial,8,N</a:FontList>
 <a:RoleAMultiplicity>1..1</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>1..*</a:RoleBMultiplicity>
 <c:Object1>
-<o:Class Ref="o23"/>
+<o:Class Ref="o18"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o21"/>
+<o:Class Ref="o16"/>
 </c:Object2>
 </o:Association>
-<o:Association Id="o13">
+<o:Association Id="o15">
 <a:ObjectID>F0A2AD3C-3529-4CA7-B1E9-2DEF53DF8284</a:ObjectID>
 <a:Name>Association_4</a:Name>
 <a:Code>Association_4</a:Code>
 <a:CreationDate>1657712058</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1658308785</a:ModificationDate>
+<a:ModificationDate>1659782838</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
-<a:RoleBMultiplicity>1..*</a:RoleBMultiplicity>
+<a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
 <c:Object1>
-<o:Class Ref="o22"/>
+<o:Class Ref="o17"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o23"/>
+<o:Class Ref="o18"/>
 </c:Object2>
 </o:Association>
-<o:Association Id="o16">
-<a:ObjectID>6BCB60F0-C10D-468E-8025-00F7554664E8</a:ObjectID>
+<o:Association Id="o8">
+<a:ObjectID>E36DC2E4-1DAF-421F-9351-055F2D1B9870</a:ObjectID>
 <a:Name>Association_5</a:Name>
 <a:Code>Association_5</a:Code>
-<a:CreationDate>1657712084</a:CreationDate>
+<a:CreationDate>1659782933</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657712194</a:ModificationDate>
+<a:ModificationDate>1659783013</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:RoleAMultiplicity>0..*</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
@@ -2000,27 +1967,12 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Class Ref="o20"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o21"/>
+<o:Class Ref="o17"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
-<c:AssociationClassLinks>
-<o:AssociationClassLink Id="o19">
-<a:ObjectID>83F136EC-A39E-4DEE-9F22-588B01F7CBE2</a:ObjectID>
-<a:CreationDate>1657712218</a:CreationDate>
-<a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657712218</a:ModificationDate>
-<a:Modifier>Shiner PC</a:Modifier>
-<c:Object1>
-<o:Class Ref="o24"/>
-</c:Object1>
-<c:Object2>
-<o:Association Ref="o13"/>
-</c:Object2>
-</o:AssociationClassLink>
-</c:AssociationClassLinks>
 <c:TargetModels>
-<o:TargetModel Id="o48">
+<o:TargetModel Id="o46">
 <a:ObjectID>CFD7EDE4-236E-41D9-BCDE-165296C81984</a:ObjectID>
 <a:Name>Analyse</a:Name>
 <a:Code>Analysis</a:Code>

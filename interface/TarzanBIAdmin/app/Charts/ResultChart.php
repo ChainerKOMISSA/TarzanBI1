@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Charts;
+use ResultController;
 
 use ArielMejiaDev\LarapexCharts\LarapexChart;
 

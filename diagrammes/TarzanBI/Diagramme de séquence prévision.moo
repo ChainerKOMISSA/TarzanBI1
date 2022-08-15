@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{FD7C52FD-5941-4B65-A876-C9B5F0C20D6F}" Label="" LastModificationDate="1657723948" Name="Diagramme de séquence UML" Objects="16" Symbols="24" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{FD7C52FD-5941-4B65-A876-C9B5F0C20D6F}" Label="" LastModificationDate="1659781407" Name="Diagramme de séquence UML" Objects="16" Symbols="24" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -967,11 +967,11 @@ NameToCode=No</a:ModelOptionsText>
 <c:SequenceDiagrams>
 <o:SequenceDiagram Id="o4">
 <a:ObjectID>9D0A2558-7AC8-41BE-ADAA-EB51E0433AFC</a:ObjectID>
-<a:Name>Faire une prévision</a:Name>
-<a:Code>Faire_une_prevision</a:Code>
+<a:Name>Réaliser des statistiques</a:Name>
+<a:Code>Realiser_des_statistiques</a:Code>
 <a:CreationDate>1657723202</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1657723911</a:ModificationDate>
+<a:ModificationDate>1659781407</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 

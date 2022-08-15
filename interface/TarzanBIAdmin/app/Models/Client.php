@@ -2,21 +2,21 @@
 
 namespace App\Models;
 
-use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use MongoDB\BSON\Regex;
-#use Jenssegers\Mongodb\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
-
-
-class Client extends Eloquent
+class Client extends Model
 {
     use HasFactory;
-    protected $connection = 'mongodb';
-    protected $collection = 'Clients';
-    protected $fillable = [
-        'nom', 'prenoms', 'phone_number'
+    protected $table = 'clients';
+    protected $primaryKey = 'id';
+    protected $connection = 'mysql2';
+    protected $attributes = [
+        'delayed' => false, 
     ];
 
+    public function commandes()
+    {
+        return $this->hasMany(Commandes::class, 'customerid');
+    }
 }
