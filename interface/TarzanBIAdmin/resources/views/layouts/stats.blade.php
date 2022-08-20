@@ -123,7 +123,7 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          Le graphe sera ici
+          @include('layouts.statschart')
           </div>
         </div>
         @include('layouts.btnimprimer')
@@ -141,6 +141,9 @@
   <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
+<script src="{{ $chart->cdn() }}"></script>
+
+{{ $chart->script() }}
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 @include('layouts.footer-scripts')
 </body>

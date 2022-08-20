@@ -18,7 +18,6 @@ def statsparmois():
 
 
 
-
 #fonctions
 def getvalues():
     if request.method == 'POST':
@@ -26,7 +25,21 @@ def getvalues():
         produit = doc['produit']
         ville = doc['ville']
         val = {"produit": produit, "ville": ville}
-    return val
+        return val
+
+
+def sendvalues():
+    if request.method == 'GET':
+        lis = statistiquesville()
+        listenbre = request.get_json(lis)
+        nbre = listenbre['SUM(Quantity)']
+        ville = listenbre['City']
+        rep = {"nbre" : nbre, "ville":ville}
+        return rep
+
+
+
+
 
 
 def getstats():

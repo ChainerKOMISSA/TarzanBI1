@@ -174,7 +174,7 @@
                                   <tr>
                                     <th>Date</th>
                                     <th>Articles</th>
-                                    <th>Ville</th>
+                                    <th>Adresses de livraison</th>
                                   </tr>
                                 </thead>
                                 <tbody>

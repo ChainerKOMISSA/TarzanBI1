@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{82C2F2CA-9DE0-45BC-8642-7B44CBF36476}" Label="" LastModificationDate="1659783013" Name="Diagramme de classes" Objects="49" Symbols="19" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{82C2F2CA-9DE0-45BC-8642-7B44CBF36476}" Label="" LastModificationDate="1660682256" Name="Diagramme de classes" Objects="35" Symbols="13" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1383,7 +1383,7 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o5">
 <a:CreationDate>1659782933</a:CreationDate>
 <a:ModificationDate>1659782980</a:ModificationDate>
-<a:Rect>((1962,3750), (13312,12600))</a:Rect>
+<a:Rect>((1962,3750), (13200,12600))</a:Rect>
 <a:ListOfPoints>((11363,12600),(11363,3750),(1962,3750))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
@@ -1827,11 +1827,11 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 <o:Attribute Id="o40">
 <a:ObjectID>DAD86778-6D99-4971-B278-5179214D46D8</a:ObjectID>
-<a:Name>City</a:Name>
-<a:Code>City</a:Code>
+<a:Name>Addresse</a:Name>
+<a:Code>Addresse</a:Code>
 <a:CreationDate>1659782516</a:CreationDate>
 <a:Creator>Shiner PC</a:Creator>
-<a:ModificationDate>1659782600</a:ModificationDate>
+<a:ModificationDate>1660682256</a:ModificationDate>
 <a:Modifier>Shiner PC</a:Modifier>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>

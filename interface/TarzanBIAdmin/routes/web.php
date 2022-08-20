@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use ArielMejiaDev\LarapexCharts\LarapexChart;
@@ -14,6 +15,9 @@ use ArielMejiaDev\LarapexCharts\LarapexChart;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+
 
 Route::get('/', function () {
     return view('auth.login');
@@ -30,7 +34,7 @@ Route::get('/predictprod', [App\Http\Controllers\PredictProdController::class, '
 Route::get('/utilisateurs', [App\Http\Controllers\UserController::class, 'habits']) ->name('utilisateurs');
 
 Route::post('/resultats', [App\Http\Controllers\ResultController::class, 'result']) -> name('resultats');
-  
+
 Route::resource('user', UserController::class);
 
 Route::get('/stats/mois', [App\Http\Controllers\MonthController::class, 'month']) ->name('stats/mois');

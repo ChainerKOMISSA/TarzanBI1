@@ -70,15 +70,12 @@ def statistiquesville():
     mycursor = db.cursor()
     values = getvalues()
     prod = values["produit"]
-    #prod = "Routeurs"
-    produit = "Description = Routeurs"
     query = ("""SELECT SUM(Quantity), City
              FROM commandes
              WHERE Description = '{}'
              GROUP BY City;""".format(prod))
     mycursor.execute(query)
     result = mycursor.fetchall()
-    print(result)
     return result
 
 
@@ -87,7 +84,7 @@ def statistiquesville():
 #retourner les mois avec le nombre de ventes de ce produit
 #en x on aura les mois et en y les nombres
 def statistiquesmois():
-    db = get_database()
+    db = get_mysqldb()
     mycursor = db.cursor()
     values = getstats()
     produit = values["produit"]
@@ -106,14 +103,20 @@ def statistiquesmois():
         month = "%/06/%"
     elif mois == "Juillet":
         month = "%/07/%"
-    query = f"SELECT SUM(Quantity), InvoiceDate FROM commandes where Description = {produit} AND InvoiceDate LIKE {month} group by InvoiceDate"
+    query = ("""SELECT SUM(Quantity), InvoiceDate 
+            FROM commandes 
+            WHERE Description = '{}'
+            AND InvoiceDate LIKE '{}'
+            GROUP BY InvoiceDate;""".format(produit, mois))
     mycursor.execute(query)
     result = mycursor.fetchall()
-    print()
+    print(result)
     return result
 
 
 
 
+
+
 if __name__ == "__main__":
-    statistiquesville()
+    statistiquesmois()
