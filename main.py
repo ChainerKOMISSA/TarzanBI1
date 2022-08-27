@@ -1,5 +1,5 @@
 import pymongo
-import spacy
+#import spacy
 from app import *
 import json
 from pymongo import MongoClient
@@ -26,14 +26,14 @@ def get_database():
 
 
 #natural language processing implementation
-def meaning(word):
+"""def meaning(word):
     nlp = spacy.load('fr_core_news_sm')
     doc = nlp(word)
-    """for chunk in doc.noun_chunks:
-        print(chunk.text)"""
+    #for chunk in doc.noun_chunks:
+        #print(chunk.text)
     for ent in doc.ents:
         print(ent.text, ent.label_)
-    return ent.label_
+    return ent.label_"""
 
 
 

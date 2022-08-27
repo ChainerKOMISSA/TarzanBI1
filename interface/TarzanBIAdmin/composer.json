@@ -7,10 +7,8 @@
     "require": {
         "php": "^7.3|^8.0",
         "arielmejiadev/larapex-charts": "^4.1",
-        "consoletvs/charts": "7.*",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.4",
-        "jenssegers/mongodb": "3.8",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",

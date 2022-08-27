@@ -10,7 +10,8 @@ class StatController extends Controller
 {
     public function stats(REQUEST $request, StatsChart $statsChart)
     {
-        $data = Http::post('http://127.0.0.1:5000/stats', [
+        //adresse IP du pc sur lequel le srveur est lance
+        $data = Http::post('http://192.168.43.4:5000/stats', [
             'produit' => $request->produit,
             'mois' =>$request->mois
         ]);

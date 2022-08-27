@@ -21,7 +21,8 @@ class ResultController extends Controller
      */
     public function result(REQUEST $request, ResultChart $chart)
     {
-        $response = Http::post('http://127.0.0.1:5000/', [
+        //adresse IP du pc sur lequel le srveur est lance
+        $response = Http::post('http://192.168.43.4:5000/', [
             'produit' =>$request->produit,
             'ville' =>$request->ville
         ]);
